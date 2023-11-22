@@ -1,0 +1,20 @@
+{
+    "name": "bot",
+    "version": "1.0.0",
+    "description": "telegram bot for translate for any language to any language ",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "bot": "env-cmd -f .env nodemon  bot.js"
+    },
+    "author": "RAED",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-fetch": "^3.3.2",
+        "node-telegram-bot-api": "^0.63.0",
+        "nodemon": "^3.0.1",
+        "prompt-sync": "^4.2.0",
+        "translate": "^2.0.2"
+    }
+}
